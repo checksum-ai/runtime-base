@@ -1,14 +1,15 @@
 {
   "name": "checksumai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checksum.ai runtime base package",
   "main": "run.js",
   "type": "module",
   "bin": {
-    "run": "./run.js"
+    "run": "ts-node --esm --skipIgnore ./run.js"
   },
   "dependencies": {
-    "@checksum-ai/runtime": "1.0.30"
+    "@checksum-ai/runtime": "1.0.30",
+    "ts-node": "^10.9.1"
   },
   "repository": {
     "type": "git",
