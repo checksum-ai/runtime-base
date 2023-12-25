@@ -1,10 +1,12 @@
 {
   "name": "checksumai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checksum.ai runtime base package",
   "main": "run.js",
   "type": "module",
-  "bin": "./run.js",
+  "bin": {
+    "run": "./run.js"
+  },
   "dependencies": {
     "@checksum-ai/runtime": "1.0.30"
   },
