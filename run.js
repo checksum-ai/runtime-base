@@ -1,5 +1,6 @@
 #!/usr/bin/env ts-node
 
-import cli from "@checksum-ai/runtime/cli.js";
+// import cli from "@checksum-ai/runtime/cli.js";
+const cli = require("@checksum-ai/runtime/cli.js");
 
 console.log("Running checksum..");

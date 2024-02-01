@@ -1,9 +1,9 @@
 {
   "name": "checksumai",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "Checksum.ai runtime base package",
   "main": "./run.js",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     "./run": "./run.js"
   },
@@ -11,7 +11,7 @@
     "checksumai": "run.js"
   },
   "dependencies": {
-    "@checksum-ai/runtime": "latest",
+    "@checksum-ai/runtime": "^1.0.50",
     "ts-node": "^10.9.1"
   },
   "repository": {
@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/checksum-ai/runtime-base/issues"
   },
-  "homepage": "https://github.com/checksum-ai/runtime-base#readme",
-  "scripts": {
-    "checksum": "ts-node --esm --skipIgnore ./node_modules/@checksum-ai/runtime/cli.js"
-  }
+  "homepage": "https://github.com/checksum-ai/runtime-base#readme"
 }
