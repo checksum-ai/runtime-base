@@ -1,6 +1,6 @@
 {
   "name": "checksumai",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Checksum.ai runtime base package",
   "main": "./run.js",
   "type": "module",
