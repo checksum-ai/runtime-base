@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "strict": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["node"]
+  }
+}
