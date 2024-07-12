@@ -11,7 +11,7 @@
     "checksumai": "run.js"
   },
   "dependencies": {
-    "@checksum-ai/runtime": "1.1.6",
+    "@checksum-ai/runtime": "1.1.10",
     "ts-node": "^10.9.1"
   },
   "repository": {
